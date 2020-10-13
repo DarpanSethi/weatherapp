@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(#4ca1af, #c4e0e5);
+    font-family: Verdana;
+    color: white; 
+}
+#app-container{
+    
+    display: flex;
+justify-content:center;
+align-items: center;
+flex-direction: column;
+width: 100vw;
+height: 100vh;
+}
+#temp{
+    text-align: center;
+}
+#temp #temp-value{
+    color: #fff;
+    font-size: 10rem;
+
+}
+#temp #temp-unit{
+    color: #fff;
+    font-size: 3rem;
+}
+#temp-icon{
+    margin: 3rem;
+    width: 40%;
+    height: 40%;
+}
+#location{
+    font-family: sans-serif;
+    color: #e0e0e0;
+    font-size: 2.5rem;
+
+}
+#climate{
+    
+    color: #808080;
+    font-size: 3rem;
+    
+}
